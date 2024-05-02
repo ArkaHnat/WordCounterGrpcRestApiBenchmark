@@ -1,0 +1,20 @@
+﻿@WordCounterService_HostAddress = https://localhost:7021
+
+POST {{WordCounterService_HostAddress}}/wordcounter/PostFileSync
+Content-Type: application/json
+
+{
+  //IFormFile
+}
+
+###
+
+POST {{WordCounterService_HostAddress}}/wordcounter/PostFileRegexAsync
+Content-Type: multipart/form-data; boundary=1
+
+{
+asdasdasasdasddasdasd
+asd
+}
+
+###
